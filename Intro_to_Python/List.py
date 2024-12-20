@@ -27,9 +27,15 @@ print(MyList1)
 
 print("")
 
+#Adding Element
+MyList1.append("Arjun")
+print(MyList1)
+
+print("")
+
 #Viewing Last Element
 print(MyList1.pop())
 
-#Adding Element
-MyList1.append("Arjun")
+print("")
+
 print(MyList1)
