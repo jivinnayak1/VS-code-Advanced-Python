@@ -7,16 +7,23 @@
 
 # print(N)
 
-Number = [1,2,3,4,5,6,7,8,9,10]
+# Number = [1,2,3,4,5,6,7,8,9,10]
 
-Even = []
-Odd = []
+# Even = []
+# Odd = []
 
-for i in Number:
-    if i%2 ==0:
-        Even.append(i)
-    else:
-        Odd.append(i)
+# for i in Number:
+#     if i%2 ==0:
+#         Even.append(i)
+#     else:
+#         Odd.append(i)
 
-print(Even)
-print(Odd)
+# print(Even)
+# print(Odd)
+
+Number1 = [1,2,3,4,5,6,7,8,9,10]
+Square = []
+
+for i in Number1:
+    Square.append(i**2)
+print(Square)
